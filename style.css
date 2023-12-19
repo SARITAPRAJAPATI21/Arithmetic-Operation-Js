@@ -1,0 +1,50 @@
+*
+{
+    margin: 0 ;
+   padding: 0; 
+   box-sizing: border-box;
+   background: blueviolet;
+   font-family: cursive;
+   font-weight: 200;
+}
+
+#n1,#n2,#res{
+    width: 15%;
+    height: 5vh ;
+    outline: none;
+    border: 2px solid #aaa ;
+    border-radius: 5px ;
+    margin: 8px  0;
+    padding: 8px ; 
+    background-color: aliceblue;
+    box-sizing: border-box;
+    transition: .3s;
+   
+}
+#n1,#n2:focus-visible
+{
+     border-color: dodgerblue;
+     box-shadow: 0 0 8px 0 dodgerblue ;
+}
+
+#n1::-webkit-inner-spin-button,::-webkit-outer-spin-button
+{
+    appearance: none; 
+}
+#n2::-webkit-inner-spin-button,::-webkit-outer-spin-button
+{
+    appearance: none; 
+}
+/*  button and */
+button
+{  height: 5vh ;
+    width: 7% ;
+    background-color: rgb(127, 246, 255);
+    margin: 8px  8px ;
+    outline: none;
+    border: 2px solid #aaa ;
+    border-radius: 5px ;
+   
+    
+
+}
